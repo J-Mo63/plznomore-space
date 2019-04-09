@@ -1,0 +1,222 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@font-face {
+    font-family: ASAP;
+    src: url(res/Asap-Regular.ttf);
+}
+
+@font-face {
+    font-family: Polya;
+    src: url(res/POLYA.otf);
+    font-weight: normal;
+	font-style: normal;
+}
+
+
+
+
+
+html {
+    color: #fc0e36;
+    background-color: #070120;
+}
+
+body {
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -webkit-text-stroke:1px transparent;
+}
+
+.title {
+    font-family: Polya;
+    font-size: 12vw;
+    text-align: center;
+}
+
+.title_img {
+    width: 100%;
+}
+
+.text_area {
+    width: 77%;
+}
+
+.body_text {
+    font-family: ASAP;
+    font-size: 2.3vw;
+    font-weight: 900;
+    line-height: 150%;
+}
+
+.buttons_area {
+    position: fixed;
+    font-size: 3vw;
+    text-align: center;
+    align-content: center;
+    right: 0px;
+}
+
+.benefits_table {
+    font-family: ASAP;
+    width: 80%;
+    table-layout:fixed;
+}
+
+.benefits_table td {
+    padding: 2%;
+}
+
+.clients_table {
+    font-family: ASAP;
+    width: 80%;
+    table-layout:fixed;
+}
+
+.icons_row {
+    font-size: 5vw;
+    text-align: center;
+}
+
+.icons_row_large {
+    font-size: 10vw;
+    text-align: center;
+}
+
+.buttons_area a {
+    color: #fc0e36;
+}
+
+.buttons_area a:hover {
+    color: #c90b2b;
+}
+
+.section_divider {
+    width: 100%;
+    height: 5px;
+    background-color: #fc0e36;
+}
+
+.space_3 {
+    height: 3vh;
+}
+
+.space_5 {
+    height: 5vh;
+}
+
+.space_10 {
+    height: 10vh;
+}
+
+.space_20 {
+    height: 20vh;
+}
+
+.centre {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centre_text {
+    text-align: center;
+}
+
+.centre_text a {
+    text-align: center;
+}
+
+footer_text {
+    text-align: center;
+    color: #fc0e36;
+}
+
+footer_text a:hover{
+    text-align: center;
+    color: #c90b2b;
+}
+
+.partner_img {
+    width: 100%;
+}
+
+a {
+    color: #fc0e36;
+    text-decoration: none;
+    font-family: ASAP;
+}
+
+.action-button {
+	position: relative;
+	padding: 10px 40px;
+    margin: 0px 10px 10px 0px;
+	border-radius: 10px;
+	font-family: ASAP;
+	font-size: 25px;
+	color: #070120;
+	text-decoration: none;	
+}
+
+.action-button:active
+{
+	transform: translate(0px,5px);
+  -webkit-transform: translate(0px,5px);
+	border-bottom: 1px solid;
+}
+
+.animate
+{
+	transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+}
+
+.red
+{
+	background-color: #fc0e36;
+	border-bottom: 5px solid #c90b2b;
+}
